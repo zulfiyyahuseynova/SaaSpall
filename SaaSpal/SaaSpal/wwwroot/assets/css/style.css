@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header span{
+    color: #fff;
+    font-weight: 700;
+}
+header ul li a{
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+header ul li:hover{
+    border-bottom: 2px solid #ffc107;
+}
+.nav-active{
+    border-bottom: 2px solid #ffc107;
+}
+.right-side img {
+    width: 100%;
+}
+.carousel-item .imgs img {
+    height: 300px;
+}
+body{
+    background-image: url(../imgs/section-imgs/hero-bg.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+section h1{
+    font-size: 4rem;
+    padding: 1rem 0 1rem 0;
+}
+section p{
+    font-size: 1.2rem;
+    padding: 1rem 0 1rem 0;
+}
+section{
+    padding-top: 3rem;
+}
+.left-side{
+    padding: 3rem 2rem 1rem 2rem;
+}
+.btn{
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+    padding: 1.2rem 2.5rem !important;
+    border-radius: 40px !important;
+}
+section .btn1{
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+.card1 i{
+    color: #5864ff;
+    font-size: 60px;
+}
+.card1 h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.bg-img{
+    background-image: url(../imgs/section-imgs/left-bg.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+section .btn2{
+    color: #5864ff !important;
+    border: 2px solid #5864ff !important;
+}
+.sec-4{
+    background-color: rgb(209, 216, 241);
+}
+.imgs{
+    background-image: url(../imgs/section-imgs/left-bg.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.slider{
+    padding: 5rem 0;
+}
+footer{
+    padding: 6rem 0;
+    background-color: #5864ff;
+}
+footer ul{
+    list-style: none;
+}
+footer p, h3, li{
+    color: #fff;
+}
+
+button i{
+    font-size: 30px;
+    width: 50px;
+    color: #5864ff !important;
+    border-radius: 50%;
+    border: 1px solid #5864ff;
+    padding-bottom: 5px;
+}
